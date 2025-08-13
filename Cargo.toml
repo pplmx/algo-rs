@@ -1,0 +1,17 @@
+[package]
+name = "algo-rs"
+version = "0.0.1"
+edition = "2024"
+description = "Algorithm practice in Rust."
+repository = "https://github.com/pplmx/algo-rs"
+homepage = "https://github.com/pplmx/algo-rs"
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+
+[dev-dependencies]
+husky-rs = "0.1.5"
+
+[[bin]]
+name = "new_problem"
+path = "scripts/new_problem.rs"
