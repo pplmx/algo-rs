@@ -10,7 +10,7 @@ license = "MIT OR Apache-2.0"
 [dependencies]
 
 [dev-dependencies]
-husky-rs = "0.1.5"
+husky-rs = "0.3.0"
 
 [[bin]]
 name = "new_problem"
